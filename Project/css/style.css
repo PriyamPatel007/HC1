@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fafafa;
+  font-family: "Roboto Slab", serif;
+  font-size: 62.5%;
+  background-image: url(../assets/pic.png);
+  background-size: cover;
+}
+.form_head {
+  top: 20%;
+  position: relative;
+}
+h3 {
+
+  color: #ffffff;
+  background-color: #333333;
+  text-align: center;
+  margin-top: 3rem !important;
+}
+.form-control {
+  border-radius: 7px !important;
+}
+
+label {
+  font-size: .9rem;
+}
+#error_red, #error_green{ 
+  font-size: 13px !important;
+} 
+#error_red{
+  color: red;
+ 
+}
+#error_green{
+color: rgb(40 167 69) !important;
+}
+.btn {
+  background-color: #409B84;
+  color: #ffffff;
+  padding: .3rem 3rem;
+}
