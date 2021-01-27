@@ -30,7 +30,13 @@
       <div class="form_head pt-1">
         <h3 class="mt-4 p-4 mx-3">Society in Care</h3>
       </div>
-      <form action="" method="post" class="mt-3 needs-validation" novalidate>
+      <form
+        action=""
+        method="post"
+        onsubmit="alert('form submitted');"
+        class="mt-3 needs-validation"
+        novalidate
+      >
         <div class="form-title">
           <h4>Applicant Details</h4>
         </div>
@@ -127,9 +133,7 @@
             required
           />
           <div class="valid-feedback" id="error_green">Areais good!</div>
-          <div class="invalid-feedback" id="error_red">
-            Area is Required *
-          </div>
+          <div class="invalid-feedback" id="error_red">Area is Required *</div>
         </div>
         <div class="Form_name mt-3">
           <label for="validationCustom01" class="form-label"
@@ -143,9 +147,7 @@
             required
           />
           <div class="valid-feedback" id="error_green">Cityis good!</div>
-          <div class="invalid-feedback" id="error_red">
-            City is Required *
-          </div>
+          <div class="invalid-feedback" id="error_red">City is Required *</div>
         </div>
         <div class="Form_name mt-3">
           <label for="validationCustom01" class="form-label"
@@ -159,9 +161,7 @@
             required
           />
           <div class="valid-feedback" id="error_green">Stateis good!</div>
-          <div class="invalid-feedback" id="error_red">
-            State is Required *
-          </div>
+          <div class="invalid-feedback" id="error_red">State is Required *</div>
         </div>
         <div class="Form_name mt-3">
           <label for="validationCustom01" class="form-label"
@@ -190,7 +190,9 @@
             id="validationCustom01"
             required
           />
-          <div class="valid-feedback" id="error_green">Qualificationis good!</div>
+          <div class="valid-feedback" id="error_green">
+            Qualificationis good!
+          </div>
           <div class="invalid-feedback" id="error_red">
             Qualification is Required *
           </div>
@@ -213,16 +215,17 @@
         </div>
         <div class="Form_name mt-3">
           <label for="validationCustom01" class="form-label"
-            >Facebook Profile Link 
+            >Facebook Profile Link
           </label>
           <input
             class="form-control form-control-sm"
             type="text"
             placeholder="Facebook Profile Link"
             id="validationCustom01"
-            
           />
-          <div class="valid-feedback" id="error_green">Facebook Profile Linkis good!</div>
+          <div class="valid-feedback" id="error_green">
+            Facebook Profile Linkis good!
+          </div>
           <div class="invalid-feedback" id="error_red">
             Facebook Profile Link is Required *
           </div>
@@ -236,9 +239,10 @@
             type="text"
             placeholder="Twitter Profile Link"
             id="validationCustom01"
-          
           />
-          <div class="valid-feedback" id="error_green">Twitter Profile Linkis good!</div>
+          <div class="valid-feedback" id="error_green">
+            Twitter Profile Linkis good!
+          </div>
           <div class="invalid-feedback" id="error_red">
             Twitter Profile Link is Required *
           </div>
@@ -252,16 +256,20 @@
             type="text"
             placeholder="Instagram Profile Link"
             id="validationCustom01"
-            
           />
-          <div class="valid-feedback" id="error_green">Instagram Profile Linkis good!</div>
+          <div class="valid-feedback" id="error_green">
+            Instagram Profile Linkis good!
+          </div>
           <div class="invalid-feedback" id="error_red">
             Instagram Profile Link is Required *
           </div>
         </div>
         <div class="Form_name mt-3">
           <label for="validationCustom01" class="form-label"
-            >How are would you like to contribute so Society in Care ?<span class="text-danger">*</span>
+            >How are would you like to contribute so Society in Care ?<span
+              class="text-danger"
+              >*</span
+            >
           </label>
           <input
             class="form-control form-control-sm"
@@ -271,13 +279,14 @@
             required
           />
           <div class="valid-feedback" id="error_green">Looks good!</div>
-          <div class="invalid-feedback" id="error_red">
-             Required *
-          </div>
+          <div class="invalid-feedback" id="error_red">Required *</div>
         </div>
         <div class="Form_name mt-3">
           <label for="validationCustom01" class="form-label"
-            >How much time can devote to Society in Care?<span class="text-danger">*</span>
+            >How much time can devote to Society in Care?<span
+              class="text-danger"
+              >*</span
+            >
           </label>
           <input
             class="form-control form-control-sm"
@@ -287,18 +296,16 @@
             required
           />
           <input
-          class="form-control form-control-sm mt-2"
-          type="text"
-          placeholder="Days"
-          id="validationCustom01"
-          required
-        />
+            class="form-control form-control-sm mt-2"
+            type="text"
+            placeholder="Days"
+            id="validationCustom01"
+            required
+          />
           <div class="valid-feedback" id="error_green">Looks good!</div>
-          <div class="invalid-feedback" id="error_red">
-             Required *
-          </div>
+          <div class="invalid-feedback" id="error_red">Required *</div>
         </div>
-      <p class="mt-3"><span class="text-danger">*</span>  Required</p>  
+        <p class="mt-3"><span class="text-danger">*</span> Required</p>
         <div class="submit_button text-center">
           <input class="btn my-3" type="submit" value="Send" />
         </div>
